@@ -11,6 +11,8 @@ function backup_if_exists() {
 backup_if_exists ~/.bash_profile
 backup_if_exists ~/.bashrc
 backup_if_exists ~/.vimrc
+backup_if_exists ~/.gitconfig
+backup_if_exists ~/.tmux.conf
 
 stow .
 
